@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.main.toolbar.toolbarcontent.Properties.PropertiesController">
+   <content>
+      <AnchorPane prefHeight="608.0" prefWidth="430.0">
+         <children>
+            <Pane layoutX="86.0" layoutY="70.0" prefHeight="610.0" prefWidth="430.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <JFXTextField fx:id="jrname" editable="false" layoutX="169.0" layoutY="49.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="220.0" prefHeight="42.0" prefWidth="113.0" text="Java  runtime version" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="262.0" prefHeight="42.0" prefWidth="113.0" text="OS arch" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="304.0" prefHeight="42.0" prefWidth="113.0" text="OS Name" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="346.0" prefHeight="42.0" prefWidth="113.0" text="OS Version" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="388.0" prefHeight="42.0" prefWidth="113.0" text="File Encoding" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="430.0" prefHeight="42.0" prefWidth="113.0" text="Data Model" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="41.0" layoutY="472.0" prefHeight="42.0" prefWidth="113.0" text="Java Version" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="41.0" layoutY="507.0" prefHeight="42.0" prefWidth="113.0" text="Java Vendor" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="41.0" layoutY="549.0" prefHeight="42.0" prefWidth="113.0" text="sun desktop" wrapText="true" />
+                  <JFXTextField fx:id="sundesktop" editable="false" layoutX="169.0" layoutY="558.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="javavendor" editable="false" layoutX="169.0" layoutY="516.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="javaversion" editable="false" layoutX="169.0" layoutY="481.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="datamodel" editable="false" layoutX="169.0" layoutY="439.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="fileencoding" editable="false" layoutX="169.0" layoutY="397.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="osversion" editable="false" layoutX="169.0" layoutY="355.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="osname" editable="false" layoutX="169.0" layoutY="313.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="osarch" editable="false" layoutX="169.0" layoutY="271.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="jrv" editable="false" layoutX="169.0" layoutY="229.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="javmname" editable="false" layoutX="169.0" layoutY="188.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="jvmvendor" editable="false" layoutX="169.0" layoutY="139.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="jvmver" editable="false" layoutX="169.0" layoutY="97.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </JFXTextField>
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="180.0" prefHeight="42.0" prefWidth="113.0" text="Java  vm  name" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="131.0" prefHeight="42.0" prefWidth="113.0" text="Java  vm vendor" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="89.0" prefHeight="42.0" prefWidth="113.0" text="Java VM version" wrapText="true" />
+                  <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="41.0" prefHeight="42.0" prefWidth="113.0" text="Java Runtime Name" wrapText="true" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

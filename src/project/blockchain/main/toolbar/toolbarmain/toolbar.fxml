@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="100.0" styleClass="drawer-buttons" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.main.toolbar.toolbarmain.ToolbarController">
+   <children>
+      <JFXButton contentDisplay="TOP" onAction="#loadTransaction" prefHeight="400.0" prefWidth="100.0" styleClass="drawer-buttons" text="Transaction">
+         <graphic>
+            <FontAwesomeIconView glyphName="LIST_ALT" size="30" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" onAction="#loadProfile" prefHeight="400.0" prefWidth="100.0" styleClass="drawer-buttons" text="Profile">
+         <graphic>
+            <FontAwesomeIconView glyphName="USER" size="30" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" onAction="#loadSystem" prefHeight="400.0" prefWidth="100.0" styleClass="drawer-buttons" text="System">
+         <graphic>
+            <FontAwesomeIconView glyphName="DESKTOP" size="30" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="35.0" onAction="#loadSettings" prefHeight="400.0" prefWidth="100.0" styleClass="drawer-buttons" text="Settings">
+         <graphic>
+            <FontAwesomeIconView glyphName="COGS" size="30" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>
