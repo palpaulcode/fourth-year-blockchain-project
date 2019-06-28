@@ -5,6 +5,7 @@ import com.jfoenix.controls.JFXTextArea;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import project.blockchain.alerts.AlertMaker;
@@ -12,8 +13,6 @@ import project.blockchain.main.toolbar.toolbarcontent.settings.Prefs;
 import project.blockchain.main.toolbar.toolbarcontent.transaction.BlockChain.BlockChain;
 
 import java.net.URL;
-import javafx.scene.input.MouseEvent;
-
 import java.util.Arrays;
 import java.util.ResourceBundle;
 
@@ -35,7 +34,7 @@ public class TransactionController implements Initializable {
 
         JFXButton yesBtn = new JFXButton("Yes");
             yesBtn.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent event) -> {
-                if (inst == null || amt == null || trsDesc == null) {
+                if (inst == null | amt != null | trsDesc != null) {
                     JFXButton noData = new JFXButton("Okay, I'm new to the System!  :[ ");
                     AlertMaker.showMaterialDialog(rootPane, rootAnchorPane,Arrays.asList(noData),"Commit Failed"
                             ,"System Detected No Data Entered");
@@ -87,5 +86,6 @@ public class TransactionController implements Initializable {
         //prints info to console
         System.out.println(blockChain);
     }
+
 
 }

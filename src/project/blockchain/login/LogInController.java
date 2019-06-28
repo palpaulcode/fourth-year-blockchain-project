@@ -1,7 +1,5 @@
 package project.blockchain.login;
 
-import com.jfoenix.controls.JFXPasswordField;
-import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -10,8 +8,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import org.apache.commons.codec.digest.DigestUtils;
+import project.blockchain.inputValidator.AlphabetTextField;
+import project.blockchain.inputValidator.PasswordTextField;
+import project.blockchain.main.mainwindow.MainController;
 import project.blockchain.main.toolbar.toolbarcontent.settings.Prefs;
-import project.blockchain.util.BlockChainUtil;
+import project.blockchain.main.toolbar.toolbarcontent.transaction.util.BlockChainUtil;
 
 import java.io.IOException;
 import java.net.URL;
@@ -20,15 +21,15 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class LogInController implements Initializable {
-
-    public JFXTextField username;
-    public JFXPasswordField password;
-
+    public AlphabetTextField username;
+    public PasswordTextField password;
     Prefs prefs;
 
-    @Override
+    public LogInController() {
+    }
+
     public void initialize(URL location, ResourceBundle resources) {
-        prefs = Prefs.getPrefs();
+        this.prefs = Prefs.getPrefs();
     }
 
     public void handleCancelAction(ActionEvent actionEvent) {
@@ -36,34 +37,34 @@ public class LogInController implements Initializable {
     }
 
     public void handleLoginAction(ActionEvent actionEvent) {
-        String uname = username.getText();
-        String pswd = DigestUtils.shaHex(password.getText());
-
-        if (uname.equals(prefs.getUsername()) && pswd.equals(prefs.getPassword())){
-            closeStage();
-            loadMainWindow();
+        String uname = this.username.getText();
+        String pswd = DigestUtils.shaHex(this.password.getText());
+        if (uname.equals(this.prefs.getUsername()) && pswd.equals(this.prefs.getPassword())) {
+            MainController.flag = true;
+            this.closeStage();
+            this.loadMainWindow();
         } else {
-            username.getStyleClass().add("wrong-credentials");
-            password.getStyleClass().add("wrong-credentials");
+            this.username.getStyleClass().add("wrong-credentials");
+            this.password.getStyleClass().add("wrong-credentials");
         }
-    }
-    private void closeStage(){
-        ((Stage)password.getScene().getWindow()).close();
+
     }
 
-    private void loadMainWindow(){
+    private void closeStage() {
+        ((Stage)this.password.getScene().getWindow()).close();
+    }
+
+    private void loadMainWindow() {
         try {
-            Parent parent = FXMLLoader.load(getClass().getResource("/project/blockchain/main/mainwindow/main.fxml"));
-            Stage stage =new Stage(StageStyle.DECORATED);
+            Parent parent = FXMLLoader.load(this.getClass().getResource("/project/blockchain/main/mainwindow/main.fxml"));
+            Stage stage = new Stage(StageStyle.DECORATED);
             stage.setTitle("BlockChain Application");
             stage.setScene(new Scene(parent));
             stage.show();
-
             BlockChainUtil.setStageIcon(stage);
-
-        } catch (IOException e) {
-            Logger.getLogger(LogInController.class.getName()).log(Level.SEVERE, null, e);
+        } catch (IOException var3) {
+            Logger.getLogger(LogInController.class.getName()).log(Level.SEVERE, null, var3);
         }
-    }
 
+    }
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="297.0" prefWidth="271.0" stylesheets="@../../../../common/common-css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.main.toolbar.toolbarcontent.createAccount.AccountCreateController">
+   <children>
+      <VBox layoutX="37.0" layoutY="27.0" prefHeight="242.0" prefWidth="318.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXTextField fx:id="firstName" labelFloat="true" promptText="First Name">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField fx:id="lastName" labelFloat="true" promptText="Last Name">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXTextField fx:id="userName" labelFloat="true" promptText="username">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pass1" labelFloat="true" promptText="Password">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <JFXPasswordField fx:id="pass2" labelFloat="true" promptText="Confirm Password">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+         </children>
+      </VBox>
+      <HBox layoutY="260.0" prefHeight="28.0" prefWidth="271.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="newAccountButton" onAction="#createNewAccount" prefHeight="20.0" prefWidth="300.0" styleClass="buttons" text="New Account">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton fx:id="cancelButton" onAction="#cancel" prefHeight="20.0" prefWidth="300.0" styleClass="buttons" text="Cancel">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

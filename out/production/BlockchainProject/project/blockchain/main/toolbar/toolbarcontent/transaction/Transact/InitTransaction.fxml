@@ -13,10 +13,10 @@
          <children>
             <Pane fx:id="pane" layoutY="39.0" prefHeight="400.0" prefWidth="91.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <JFXTextField fx:id="inst" layoutX="25.0" layoutY="14.0" prefHeight="25.0" prefWidth="393.0" promptText="Institution" />
-                  <JFXTextField fx:id="amt" layoutX="25.0" layoutY="59.0" prefHeight="25.0" prefWidth="393.0" promptText="Amount" />
-                  <JFXTextArea fx:id="trsDesc" layoutX="23.0" layoutY="103.0" prefHeight="164.0" prefWidth="393.0" promptText="Transaction Description" />
-                  <JFXButton layoutX="39.0" layoutY="295.0" onAction="#commitTransaction" text="Commit" />
+                  <JFXTextField fx:id="inst" layoutX="25.0" layoutY="14.0" prefHeight="25.0" prefWidth="393.0" promptText="Institution" styleClass="text-field" />
+                  <JFXTextField fx:id="amt" layoutX="25.0" layoutY="59.0" prefHeight="25.0" prefWidth="393.0" promptText="Amount" styleClass="text-field" />
+                  <JFXTextArea fx:id="trsDesc" layoutX="23.0" layoutY="103.0" prefHeight="164.0" prefWidth="393.0" promptText="Transaction Description" styleClass="text-area" />
+                  <JFXButton layoutX="39.0" layoutY="295.0" onAction="#commitTransaction" styleClass="btn" text="Commit" />
                </children>
             </Pane>
          </children>

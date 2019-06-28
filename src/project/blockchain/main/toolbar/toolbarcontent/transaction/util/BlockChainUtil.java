@@ -1,4 +1,4 @@
-package project.blockchain.util;
+package project.blockchain.main.toolbar.toolbarcontent.transaction.util;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

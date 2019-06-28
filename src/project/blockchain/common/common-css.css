@@ -27,6 +27,20 @@
     -fx-background-color : -fx-secondary;
     -fx-text-fill : -fx-primary;
 }
+
+.btn{
+    -fx-background-color: -fx-blue;
+    -fx-border-color: -fx-blue;
+    -fx-border-radius : 15px;
+    -fx-background-radius : 15px;
+    -fx-text-fill: white;
+}
+
+.btn:hover{
+    -fx-background-color: derive(green, 20%);
+    -fx-border-color: green;
+    -fx-text-fill: white;
+}
 /*Drawer Buttons Styling*/
 .drawer-buttons {
     -fx-text-fill : -fx-primary-text;
@@ -44,6 +58,17 @@
     -fx-text-fill : -fx-primary-text;
     -fx-font-size : 10pt;
     -jfx-focus-color : -fx-secondary;
+}
+
+.text-area{
+    -fx-text-fill: black/*-fx-primary-text*/;
+    -fx-font-size: 10pt;
+    -jfx-focus-color:-fx-secondary;
+}
+.txt{
+    -fx-font-size : 10pt;
+    -jfx-focus-color : blue;
+    -fx-text-fill: derive(grey,-50%);
 }
 
 .wrong-credentials {
@@ -105,7 +130,7 @@
 }
 
 /*.submission-container {*/
-    /*-fx-background-color : derive(-fx-primary, 20%);*/
+/*-fx-background-color : derive(-fx-primary, 20%);*/
 /*}*/
 /*Dialog button styling*/
 .dialog-button{
@@ -115,8 +140,8 @@
 }
 
 .dialog-button:hover{
-    -fx-background-color: -fx-primary;
-    -fx-border-color: -fx-primary;
+    -fx-background-color: derive(green, 20%);
+    -fx-border-color: green;
     -fx-text-fill: white;
 }
 
@@ -124,15 +149,21 @@
     -fx-hgap : 12;
 }
 
+.transaction-pane{
+    -fx-background-color : derive(ghostwhite, 20%);/**/
+    -fx-border-color : derive(-fx-primary, 90%)/*-fx-secondary*/;
+    -fx-text-fill: white;
+}
+
 /*Chart Styling*/
 /*.data0.chart-pie {*/
-    /*-fx-pie-color: -fx-secondary;*/
-    /*-fx-border-color: derive(-fx-secondary, -30%);*/
+/*-fx-pie-color: -fx-secondary;*/
+/*-fx-border-color: derive(-fx-secondary, -30%);*/
 /*}*/
 /*.data1.chart-pie {*/
-    /*-fx-pie-color: -fx-blue;*/
-    /*-fx-border-color: derive(-fx-blue, -30%);*/
+/*-fx-pie-color: -fx-blue;*/
+/*-fx-border-color: derive(-fx-blue, -30%);*/
 /*}*/
 /*.chart-pie-label {*/
-    /*-fx-fill: -fx-secondary;*/
+/*-fx-fill: -fx-secondary;*/
 /*}*/

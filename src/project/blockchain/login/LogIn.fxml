@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXPasswordField?>
-<?import com.jfoenix.controls.JFXTextField?>
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import project.blockchain.inputValidator.AlphabetTextField?>
+<?import project.blockchain.inputValidator.PasswordTextField?>
 <AnchorPane prefHeight="282.0" prefWidth="293.0" stylesheets="@../common/common-css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.login.LogInController">
    <children>
-      <JFXTextField fx:id="username" labelFloat="true" layoutX="55.0" layoutY="104.0" prefWidth="200.0" promptText="Username" />
-      <JFXPasswordField fx:id="password" labelFloat="true" layoutX="55.0" layoutY="155.0" onAction="#handleLoginAction" prefWidth="200.0" promptText="Password" />
+      <AlphabetTextField fx:id="username" labelFloat="true" layoutX="55.0" layoutY="104.0" prefWidth="200.0" promptText="Username" />
+      <PasswordTextField fx:id="password" labelFloat="true" layoutX="55.0" layoutY="155.0" onAction="#handleLoginAction" prefWidth="200.0" promptText="Password" />
       <JFXButton layoutX="65.0" layoutY="211.0" onAction="#handleLoginAction" prefWidth="60.0" styleClass="buttons" text="Login" />
       <JFXButton layoutX="195.0" layoutY="211.0" onAction="#handleCancelAction" prefWidth="60.0" styleClass="buttons" text="Cancel" />
       <FontAwesomeIconView glyphName="LOCK" layoutX="125.0" layoutY="65.0" size="45" wrappingWidth="19.9999977350235" />

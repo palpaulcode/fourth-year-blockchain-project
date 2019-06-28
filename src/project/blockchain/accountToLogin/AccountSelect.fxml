@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane prefHeight="91.0" prefWidth="298.0" stylesheets="@../common/common-css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.accountToLogin.SelectAccountController">
+   <children>
+      <Text fill="GREY" fontSmoothingType="LCD" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Account Type To Continue" wrappingWidth="270.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="admin" layoutX="14.0" layoutY="41.0" onAction="#loadAdminLogin" prefHeight="30.0" prefWidth="100.0" styleClass="buttons" text="Admin" />
+      <JFXButton fx:id="user" layoutX="170.0" layoutY="41.0" onAction="#loadUserLogIn" prefHeight="30.0" prefWidth="100.0" styleClass="buttons" text="User" />
+   </children>
+</AnchorPane>

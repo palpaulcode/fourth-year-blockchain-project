@@ -11,5 +11,6 @@
     <orderEntry type="library" name="jfoenix" level="project" />
     <orderEntry type="library" name="gson-2.8.5" level="project" />
     <orderEntry type="library" name="commons-codec-1.5" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.13-bin" level="project" />
   </component>
 </module>

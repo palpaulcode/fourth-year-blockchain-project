@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="160.0" prefWidth="262.0" stylesheets="@../../../../common/common-css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.blockchain.main.toolbar.toolbarcontent.ViewSettings.ViewSettingsController">
+   <children>
+      <JFXTextField fx:id="username1" editable="false" labelFloat="true" layoutX="24.0" layoutY="35.0" prefHeight="25.0" prefWidth="215.0" promptText="System Administrator" />
+      <JFXTextField fx:id="nonceValue" editable="false" labelFloat="true" layoutX="24.0" layoutY="86.0" prefHeight="25.0" prefWidth="215.0" promptText="Set Nonce Value" />
+   </children>
+</AnchorPane>
