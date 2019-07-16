@@ -1,7 +1,7 @@
 package project.blockchain.main.toolbar.toolbarmain;
 
 import javafx.event.ActionEvent;
-import project.blockchain.util.BlockChainUtil;
+import project.blockchain.main.toolbar.toolbarcontent.transaction.util.BlockChainUtil;
 
 public class ToolbarController {
 

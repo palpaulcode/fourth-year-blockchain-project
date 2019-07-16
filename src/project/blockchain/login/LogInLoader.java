@@ -5,7 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import project.blockchain.util.BlockChainUtil;
+import project.blockchain.main.toolbar.toolbarcontent.transaction.util.BlockChainUtil;
+
 
 public class LogInLoader extends Application {
 
