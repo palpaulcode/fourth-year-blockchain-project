@@ -13,22 +13,11 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/createAccount/AccountCreate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/createAccount/AccountCreate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogIn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogInController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogInLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/login/LogInLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/mainwindow/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/mainwindow/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/UserinfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/UserinfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/userinfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/Profile/userinfo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/mainwindow/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/mainwindow/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/settings/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/settings/settings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/InitTransaction.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/InitTransaction.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarmain/ToolbarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/main/toolbar/toolbarmain/ToolbarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BlockchainProject/project/blockchain/util/BlockChainUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/blockchain/createAccount/AccountCreate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/createAccount/AccountCreate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/blockchain/login/LogInLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/login/LogInLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/blockchain/main/mainwindow/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/main/mainwindow/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/settings/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/settings/settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/ViewSettings/settingsview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/ViewSettings/settingsview.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java" afterDir="false" />
     </list>
     <list id="d96a4ae3-139c-4492-a791-5abd49527d96" name="Completed" comment="Changes for completed project" />
@@ -98,52 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/blockchain/accountToLogin/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/blockchain/accountToLogin/SelectAccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogInController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configfile.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/blockchain/DatabaseHandler/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/createAccount/AccountLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="70">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -174,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/login/LogInLoader.java" />
         <option value="$PROJECT_DIR$/src/login/LogIn.fxml" />
         <option value="$PROJECT_DIR$/src/common-css.css" />
         <option value="$PROJECT_DIR$/src/createAccount/AccountCreate.fxml" />
@@ -213,18 +160,19 @@
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/InitTransaction.fxml" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/TransactionController.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/alerts/AlertMaker.java" />
-        <option value="$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/UserinfoController.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/userinfo.fxml" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/mainwindow/main.fxml" />
         <option value="$PROJECT_DIR$/src/project/blockchain/common/common-css.css" />
-        <option value="$PROJECT_DIR$/src/project/blockchain/login/LogInController.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/login/LogIn.fxml" />
-        <option value="$PROJECT_DIR$/src/project/blockchain/main/mainwindow/MainController.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/ChainStore/Store.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/login/LogInLoader.java" />
-        <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java" />
         <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.java" />
+        <option value="$PROJECT_DIR$/src/project/blockchain/login/LogInController.java" />
+        <option value="$PROJECT_DIR$/src/project/blockchain/accountToLogin/Login.java" />
+        <option value="$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java" />
+        <option value="$PROJECT_DIR$/src/project/blockchain/main/mainwindow/MainController.java" />
+        <option value="$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java" />
       </list>
     </option>
   </component>
@@ -267,7 +215,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,131 +222,11 @@
               <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="accountToLogin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="DatabaseHandler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="mainwindow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbarcontent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbarcontent" type="462c0819:PsiDirectoryNode" />
-              <item name="createAccount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbarcontent" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbarcontent" type="462c0819:PsiDirectoryNode" />
-              <item name="ViewSettings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlockchainProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlockchainProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbar" type="462c0819:PsiDirectoryNode" />
-              <item name="toolbarmain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,17 +245,26 @@
     <property name="last_opened_file_path" value="D:/backup(c drive)/Documents/IdeaProjects/BlockchainProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vcs.patch.path" value="$USER_HOME$/Desktop/BlockchainProject" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="project.blockchain.main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\out\artifacts\BlockchainProject_jar" />
+      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\common" />
+      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\common\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\out\production\BlockchainProject\project\blockchain\main\toolbar\toolbarcontent" />
@@ -436,11 +272,6 @@
       <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\main\toolbar\toolbarmain" />
       <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\main\toolbar\toolbarcontent" />
       <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\main\mainwindow" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\out\artifacts\BlockchainProject_jar" />
-      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\common" />
-      <recent name="C:\Users\TURNKEY\IdeaProjects\BlockchainProject\src\project\blockchain\common\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccountLoader">
+  <component name="RunManager" selected="Application.Login">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -474,48 +305,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountLoader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project.blockchain.createAccount.AccountLoader" />
-      <module name="BlockchainProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="project.blockchain.createAccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project.blockchain.main.toolbar.toolbarcontent.createAccount.AccountLoader" />
-      <module name="BlockchainProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="project.blockchain.main.toolbar.toolbarcontent.createAccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogInLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project.blockchain.login.LogInLoader" />
-      <module name="BlockchainProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="project.blockchain.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.blockchain.accountToLogin.Login" />
       <module name="BlockchainProject" />
@@ -523,6 +312,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="project.blockchain.accountToLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.blockchain.main.mainwindow.Main" />
+      <module name="BlockchainProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.blockchain.main.mainwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -553,6 +356,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="project.blockchain.main.toolbar.toolbarcontent.Profile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettingsLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.blockchain.main.toolbar.toolbarcontent.settings.SettingsLoader" />
+      <module name="BlockchainProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.blockchain.main.toolbar.toolbarcontent.settings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewSettingsLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.blockchain.main.toolbar.toolbarcontent.ViewSettings.ViewSettingsLoader" />
+      <module name="BlockchainProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.blockchain.main.toolbar.toolbarcontent.ViewSettings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -599,19 +430,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LogInLoader" />
       <item itemvalue="Application.Login" />
-      <item itemvalue="Application.AccountLoader" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.ProfileLoader" />
-      <item itemvalue="Application.AccountLoader (1)" />
+      <item itemvalue="Application.SettingsLoader" />
+      <item itemvalue="Application.ViewSettingsLoader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountLoader" />
         <item itemvalue="Application.Login" />
-        <item itemvalue="Application.AccountLoader (1)" />
         <item itemvalue="Application.ProfileLoader" />
-        <item itemvalue="Application.LogInLoader" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SettingsLoader" />
+        <item itemvalue="Application.ViewSettingsLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -700,6 +531,20 @@
       <workItem from="1561700496406" duration="792000" />
       <workItem from="1561720340089" duration="5470000" />
       <workItem from="1562822450056" duration="7375000" />
+      <workItem from="1563259943637" duration="899000" />
+      <workItem from="1563261975570" duration="6314000" />
+      <workItem from="1563349951978" duration="4544000" />
+      <workItem from="1563370093680" duration="603000" />
+      <workItem from="1563384535913" duration="840000" />
+      <workItem from="1563427112663" duration="3895000" />
+      <workItem from="1563513565189" duration="588000" />
+      <workItem from="1563608212655" duration="261000" />
+      <workItem from="1563773987848" duration="144000" />
+      <workItem from="1563774569167" duration="3279000" />
+      <workItem from="1563956256098" duration="596000" />
+      <workItem from="1565271915310" duration="1260000" />
+      <workItem from="1565691456510" duration="6000" />
+      <workItem from="1567942078288" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="update.">
       <created>1561721886248</created>
@@ -708,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561721886248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update.">
+      <created>1563260078779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563260078779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207324000" />
+    <option name="totallyTimeSpent" value="230779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,10 +576,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24432677" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14750378" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -735,7 +586,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33011273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -745,10 +596,10 @@
       <window_info anchor="bottom" id="Application Servers" order="8" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.18035427" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.52657" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.5797101" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.60547507" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
@@ -768,6 +619,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -822,13 +684,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Compressed/jblockchain-master/common/src/main/java/de/neozo/jblockchain/common/domain/Transaction.java" />
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/common/Hacker.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/common/Blockchain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/settings/SettingsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -851,12 +706,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Properties/properties.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/TransactionLoader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,22 +721,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/settings/settings.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="149" selection-start-line="7" selection-start-column="149" selection-end-line="7" selection-end-column="149" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Private.key">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://D:/JAVA/libraries/commons-codec-1.5.jar!/org/apache/commons/codec/DecoderException.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -922,12 +770,12 @@
       </provider>
     </entry>
     <entry file="jar://D:/backup(c drive)/Documents/IdeaProjects/BlockchainProject/out/artifacts/BlockchainProject_jar/BlockchainProject.jar!/project/blockchain/main/toolbar/toolbarcontent/Profile/userinfo.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" lean-forward="true" selection-end-line="29" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://D:/backup(c drive)/Documents/IdeaProjects/BlockchainProject/out/artifacts/BlockchainProject_jar/BlockchainProject.jar!/project/blockchain/main/mainwindow/MainController.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -960,12 +808,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/InitTransaction.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/transaction/Transact/TransactionController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -983,14 +831,6 @@
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogIn.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/inputValidator/AlphabetTextField.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1025,16 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/common/common-css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1043,28 +873,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/mainwindow/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/toolbar.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="104" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogInLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,16 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="15" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/createAccount/AccountLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1134,8 +944,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/createAccount/AccountCreate.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/createAccount/AccountCreateController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1144,52 +954,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/UserinfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/userinfo.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/mainwindow/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogInLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configfile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/DatabaseHandler/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/createAccount/AccountLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="153">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/accountToLogin/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/ViewSettings/ViewSettingsLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarmain/ToolbarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/mainwindow/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,10 +1028,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/blockchain/login/LogInController.java">
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/MultiUserLogin/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+        <state relative-caret-position="60">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/UserinfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="53" column="89" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/Profile/ProfileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/inputValidator/PasswordTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/main/toolbar/toolbarcontent/settings/Prefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/accountToLogin/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/blockchain/DatabaseHandler/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>

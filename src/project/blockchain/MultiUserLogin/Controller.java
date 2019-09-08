@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import project.blockchain.DatabaseHandler.Database;
 import project.blockchain.login.LogInController;
+import project.blockchain.main.mainwindow.MainController;
 import project.blockchain.main.toolbar.toolbarcontent.transaction.util.BlockChainUtil;
 
 import javax.swing.*;
@@ -52,7 +53,7 @@ public class Controller implements Initializable {
                     while (rs.next()){
                         System.out.println("Current user " + rs.getString("firstname") +" "+ rs.getString("lastname"));
 
-                        /*MainController.USERNAME = cUser;*/ //set name of user in class MainController
+                        MainController.USERNAME = cUser; //set name of user in class MainController
 
                         closeStage();
                         loadMainWindow();
