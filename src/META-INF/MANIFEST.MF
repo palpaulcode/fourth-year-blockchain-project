@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: jfoenix.jar gson-2.8.5.jar fontawesomefx-8.9.jar commons-c
+ odec-1.5.jar mysql-connector-java-5.1.13-bin.jar
+Main-Class: project.blockchain.accountToLogin.Login
+

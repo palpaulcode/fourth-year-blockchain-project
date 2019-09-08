@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="BlockchainProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BlockchainProject_jar</output-path>
+    <root id="root">
+      <element id="archive" name="BlockchainProject.jar">
+        <element id="module-output" name="BlockchainProject" />
+      </element>
+      <element id="library" level="project" name="jfoenix" />
+      <element id="library" level="project" name="gson-2.8.5" />
+      <element id="library" level="project" name="fontawesomefx-8.9" />
+      <element id="library" level="project" name="commons-codec-1.5" />
+    </root>
+  </artifact>
+</component>
